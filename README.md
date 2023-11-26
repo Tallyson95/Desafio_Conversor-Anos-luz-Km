@@ -2,6 +2,7 @@
 Este projeto foi realizado para um desafio técnico de estágio em desenvolvimento.
 A aplicação é um conversor simples que calcula o valor disponibilizado e entrega a conversão para anos-luz ou em quilometragem.
 O projeto foi desenvolvido em React.Js + vite.
+O projeto possui 2 sections, a primeira realiza a conversão de anos luz e retorna um valor em quilometragem, enquanto a segunda section converte um valor em quilômetro e retorna o correspondente em anos luz com notação científica que simbolíza determinado valor.
 Para abrir e testa-lo, basta seguir os passos abaixo.
 
 1º Passo: Para acessar o projeto, será necessário fazer o download e extrai-lo em algum local do seu computador.
