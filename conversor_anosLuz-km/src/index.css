@@ -1,0 +1,216 @@
+.navBar{
+  color: #ffffff;
+  display: flex;
+  background-color: #290250;
+  text-decoration: none;
+  padding: 1%;
+  position: fixed;
+  width: 100%;
+  justify-content: center;
+  font-family: Coiny;
+}
+
+.sobre1{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+h1{
+  font-family: Coiny;
+}
+ul{
+  list-style: none;
+  text-decoration: none;
+}
+
+.nomeInput{
+  font-family: Coiny;
+  font-size: 20px;
+  color: #ffffff;
+}
+.inputStyle{
+  width: 55%;
+  border-radius: 50px;
+  height: 30px;
+  margin-top: 5%;
+}
+
+.h1Style{
+  color: #c074ff;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 2000px;
+  background-image: url('./pixel-art-universo.jpg');
+}
+
+
+
+button {
+  border-radius: 20px;
+  border: 2px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Coiny;
+  
+  cursor: pointer;
+  transition: border-color 0.25s;
+  
+}
+button:hover {
+  transform: scale(1.2);
+  background-color: #c074ff;
+  transition: 0.5s;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.card{
+  background-color: #1a1a1adf;
+  margin-left: 12%;
+  text-align: center;
+  margin-top: 10%;
+  padding: 3%;
+  border-radius: 50px;
+}
+@media (min-width: 768px) and (max-width: 1023px){
+  .card{
+    background-color: #1a1a1adf;
+    margin-left: 8%;
+    text-align: center;
+    margin-top: 10%;
+    padding: 3%;
+    border-radius: 50px;
+  }
+}
+@media(max-width: 767px){
+  .card{
+    margin-top: 15%;
+    background-color: #1a1a1adf;
+    margin-left: 2%;
+    text-align: center;
+    margin-top: 10%;
+    padding: 3%;
+    border-radius: 50px;
+  }
+}
+
+.card-container{
+  display: flex;
+}
+
+.resultado {
+  margin-top: 20px;
+  color:  #c074ff;
+  font-family: Coiny;
+}
+
+.txt{
+  font-family: Coiny;
+  color: #ffffff;
+  
+}
+
+.rst{
+  color: #ffffff;
+  font-family: Coiny;
+}
+
+
+.table-container {
+  margin: 20px auto;
+  max-width: 80%;
+}
+
+.txt {
+  font-family: Coiny;
+  color: #ffffff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ffffff;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #424242;
+}
+
+tr:hover {
+  background-color: #646464;
+}
+
+.txt2{
+  font-family: Coiny;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.sobre{
+  text-align: center;
+  margin-top: 10%;
+  color: #c074ff;
+}
+.sobre1{
+  color: #ffffff;
+}
+
+.card2{
+  background-color: #1a1a1a;
+  width: 50%;
+  margin-left: 23%;
+  padding: 3%;
+  border-radius: 50px;
+  color: #ffffff;
+  font-family: Coiny;
+  font-size: 20px;
+}
+p{
+  text-align: justify;
+}
+
+@media (min-width: 200px) and (max-width: 765px) {
+  .card2{
+    width: 50%;
+    font-size: 12px;
+  }
+}
